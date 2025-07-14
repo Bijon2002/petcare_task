@@ -2,7 +2,8 @@
 
 <section class="py-5" id="whatwedo">
     <div class="container text-center">
-        <h2 class="fw-bold mb-4">What We Do</h2>
+       <h2 class="fw-bold mb-4 text-primary">What We Do</h2>
+
         <p class="text-muted mb-5">We provide the best services to keep your pets happy and healthy.</p>
 
         <div class="row g-4">

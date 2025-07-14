@@ -9,3 +9,27 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+/* Bootstrap Override Styles */
+.carousel {
+    position: relative;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.btn-warning {
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+    color: #000 !important;
+}
+
+.btn-warning:hover {
+    background-color: #ffca2c !important;
+    border-color: #ffc720 !important;
+    color: #000 !important;
+}
+.body {
+    background-color: #0d6efd;
+}

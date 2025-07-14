@@ -3,10 +3,12 @@
 @section('title', 'Home')
 
 @section('content')
+
+    @include('include.slider')
     @include('include.whatwedo')
     @include('include.form')
-    <br>
+
     @include('include.about')
-    <br>
-    @include('include.contact')
+
+   @include('include.contact')
 @endsection
