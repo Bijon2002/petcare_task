@@ -1,6 +1,16 @@
 <?php
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\SliderController;
+
+use App\Livewire\SlideManager;
+
+
+// Home page
+Route::get('/', function () {
+    return view('home');
+});
+
+
+
 
 // Home page loading sliders dynamically
 
@@ -13,9 +23,6 @@ Route::get('/shop', function () {
 // Resource routes for sliders (show, create, store, edit, update, destroy)
 
 
-Route::get('/', [SliderController::class, 'index']);
-Route::put('/sliders/bulk-update', [SliderController::class, 'bulkUpdate'])->name('sliders.bulk-update');
-Route::delete('/sliders/bulk-delete', [SliderController::class, 'bulkDelete'])->name('sliders.bulk-delete');
 
-Route::resource('sliders', SliderController::class)->except(['create', 'edit', 'show']);
+
 

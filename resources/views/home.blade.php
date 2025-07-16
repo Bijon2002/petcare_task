@@ -4,11 +4,11 @@
 
 @section('content')
 
-    @include('include.slider')
+    @livewire('slide-manager') 
+
     @include('include.whatwedo')
     @include('include.form')
-
     @include('include.about')
+    @include('include.contact')
 
-   @include('include.contact')
 @endsection
